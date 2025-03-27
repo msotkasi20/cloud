@@ -7,7 +7,7 @@ const app = express();
 
 // Määritellään reitti (route)
 app.get('/', (req, res) => {
-    res.send('Hello World from Render!');
+    res.send('Hello World from Render, again!');
 });
 
 // Määritetään käytettävä portti, 3000 on localhost portti
