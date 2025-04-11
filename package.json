@@ -1,0 +1,24 @@
+{
+  "name": "cloud",
+  "version": "1.0.0",
+  "description": "Tässä tehtävässä piti tehdä pipeline Githubin ja Render.comin välille ja katsoa\r että se toimii automaattisesti.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msotkasi20/cloud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/msotkasi20/cloud/issues"
+  },
+  "homepage": "https://github.com/msotkasi20/cloud#readme",
+  "dependencies": {
+    "axios": "^1.8.4"
+  }
+}
