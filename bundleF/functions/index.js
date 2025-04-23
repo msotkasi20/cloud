@@ -14,7 +14,7 @@ app.get("/tapahtumat", async (req, res) => {
     const paiva = nyt.getDate();
  
     // Muodostetaan otsikko Wikipedia-sivulle, esim. "23._huhtikuuta"
-    const url = `https://fi.wikipedia.org/api/rest_v1/page/summary/${kuukausi}_${paiva}`; 
+    const url = `https://fi.wikipedia.org/api/rest_v1/page/summary/${paiva}_${kuukausi}`; 
     try {
         const vastaus = await fetch(url);
         const data = await vastaus.json();
