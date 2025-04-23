@@ -3,7 +3,7 @@ document.getElementById("hae").addEventListener("click", async () => {
         const response = await fetch("https://historia-backend-7tvi.onrender.com/tapahtumat");
         const data = await response.json();
         document.getElementById("tulokset").innerHTML = data.tapahtumat
-            .map(t => `<li>$(t)</li>`)
+            .map(t => `<li>${t}</li>`)
             .join("");
     } catch (error) {
         console.error("Virhe haettaessa tapahtumia", error);
