@@ -6,7 +6,6 @@ on:
   pull_request:
     paths:
       - 'bundleO/**'
- 
 jobs:
   build:
     runs-on: ubuntu-latest
