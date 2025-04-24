@@ -11,7 +11,7 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 
-//etusivu ja hakulomake tällä rivillä
+//etusivu ja hakulomake
 app.get('/', (req, res) => {
     res.render('index', { movie: null, error: null });
 });
