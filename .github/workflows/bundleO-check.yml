@@ -1,18 +1,20 @@
-name: Check bundleO
+name: Check bundle_o
+ 
 on:
   push:
     paths:
-      - 'bundleO/**'
+      - 'bundle_o/**'
   pull_request:
     paths:
-      - 'bundleO/**'
+      - 'bundle_o/**'
+ 
 jobs:
   build:
     runs-on: ubuntu-latest
  
     defaults:
       run:
-        working-directory: bundleO
+        working-directory: bundle_o
  
     steps:
       - name: Checkout repository
