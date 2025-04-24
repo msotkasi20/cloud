@@ -1,12 +1,12 @@
-name: Check bundle_o
+name: Check bundleO
  
 on:
   push:
     paths:
-      - 'bundle_o/**'
+      - 'bundleO**'
   pull_request:
     paths:
-      - 'bundle_o/**'
+      - 'bundleO**'
  
 jobs:
   build:
@@ -14,7 +14,7 @@ jobs:
  
     defaults:
       run:
-        working-directory: bundle_o
+        working-directory: bundleO
  
     steps:
       - name: Checkout repository
